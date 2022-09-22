@@ -1,0 +1,16 @@
+.rodape {
+    background-color: #C4C4C4;
+    color: #FDFDFD;
+    text-align: right;
+    padding: 1.56rem 5rem;
+        
+}
+
+.rodape__texto {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 300;
+    color: white;
+    display: flex;
+    justify-content: end;
+}

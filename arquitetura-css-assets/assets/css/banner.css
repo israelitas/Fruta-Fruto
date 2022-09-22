@@ -1,0 +1,98 @@
+.banner {
+    position: relative;
+}
+.banner__imagem {
+    width: 100%;
+}
+
+.banner__titulo {
+    color: #FDFDFD;
+    font-family: Pacifico, cursive;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0 ,0 , 75);
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 81px;
+    font-weight: 400;
+}
+
+.sobre__titulo {
+    color: #8D0606;
+    font-family: Pacifico, cursive;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 51px;
+    font-weight: 400;
+}
+
+.sobre__descrição {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+    color: #8C8888;
+    padding: 8px 18vw;
+}
+
+@media  screen and (min-width:0) {
+    .banner__titulo {
+        font-size: 3rem;
+    }    
+}
+
+@media  screen and (min-width:0) {
+    .banner__imagem {
+        height: calc(100vh - 51px);       
+    }
+}
+
+@media screen and (min-width: 0) {
+    .banner__imagem {
+        height: calc(100vh - 51vh);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .banner__imagem {
+        height: calc(100vh - 72px);
+    }
+}
+
+@media screen and (min-width: 0) {
+    .sobre {
+        padding: 2.5rem 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre {
+        padding: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 0) {
+    .sobre__titulo {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__titulo {
+        font-size: 3.1875rem;
+    }
+}
+
+@media screen and (min-width: 0) {
+    .sobre__descrição {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__descrição {
+        font-size: 1.75rem;
+    }
+}
